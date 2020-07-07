@@ -1,0 +1,297 @@
+.AboutAll {
+  max-width: 100%;
+}
+/* AboutContainer */
+.AboutContainer {
+  max-width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: var(--p);
+  font-family: var(--main-title-chinese);
+  color: var(--main-colorblock);
+}
+// title
+
+.AboutH2 {
+  font-size: 20px;
+  margin: 110px 0 20px 0;
+}
+
+// 第一區塊
+
+.AboutList1 {
+  display: flex;
+}
+.AboutP {
+  max-width: 720px;
+  margin: 20px 10px 20px 0;
+  letter-spacing: 5px;
+}
+
+.AboutImgPicture1 {
+  max-width: 220px;
+  height: 220px;
+  margin: 20px 0 0 0;
+}
+
+// 第二區塊
+
+.AboutList2 {
+  max-width: 960px;
+  display: flex;
+}
+
+//第二區塊 左邊 北部的環境介紹以及地址地圖
+
+.About2Left {
+  max-width: 500px;
+}
+.AboutP2Left {
+  max-width: 500px;
+  letter-spacing: 5px;
+}
+.AboutP2LeftBottom {
+  margin: 0 0 20px 0;
+}
+.AboutImgPicture2 {
+  max-width: 500px;
+  height: 400px;
+}
+.ForumBtn01 {
+  select {
+    width: 200px;
+  }
+}
+.AboutNorthH2 {
+  font-size: 20px;
+  margin: 20px 0 20px 0;
+}
+.About2ImgBackground {
+  max-width: 200px;
+}
+// .About2Right img:hover {
+//   width: 300px;
+// }
+//第二區塊 右邊 小圖片
+
+.About2Right {
+  max-width: 480px;
+}
+// .About2Right img:hover {
+//   // max-width: 205px;
+//   border: 5px solid #797979;
+// }
+.About2ImgBackground1 {
+  margin: 75px 10px 20px 40px;
+  border: 5px solid transparent;
+}
+.About2ImgBackground2 {
+  margin: 75px 0 20px 10px;
+  border: 5px solid transparent;
+}
+.About2ImgBackground3 {
+  margin: 0px 10px 20px 40px;
+  border: 5px solid transparent;
+}
+.About2ImgBackground4 {
+  margin: 0px 0px 20px 10px;
+  border: 5px solid transparent;
+}
+.About2ImgBackground5 {
+  margin: 0px 10px 20px 40px;
+  border: 5px solid transparent;
+}
+
+//第三區塊
+.About3List {
+  display: flex;
+}
+
+//第三區塊 左邊 南部環境介紹以及地址地圖
+.AboutNorthH3 {
+  font-size: 20px;
+  margin: 20px 0 20px 0;
+}
+.About3Left {
+  max-width: 480px;
+}
+.AboutSouthH2 {
+  margin: 40px 0 20px 0;
+}
+
+.AboutP3Left {
+  max-width: 500px;
+  letter-spacing: 5px;
+}
+.AboutP3LeftBottom {
+  margin: 0 0 20px 0;
+}
+//地圖圖片大小
+.AboutImgPicture3 {
+  max-width: 500px;
+  height: 400px;
+}
+
+//第三區塊 右邊
+.About3Right {
+  max-width: 480px;
+  margin: 0 0 0px 20px;
+  // border: 0px solid transparent;
+}
+// .About3Right img:hover {
+//   // max-width: 205px;
+//   border: 5px solid #797979;
+// }
+.About3ImgBackground6 {
+  margin: 75px 10px 20px 40px;
+  border: 5px solid transparent;
+}
+.About3ImgBackground7 {
+  margin: 75px 0 20px 10px;
+  border: 5px solid transparent;
+}
+.About3ImgBackground8 {
+  margin: 0px 10px 20px 40px;
+  border: 5px solid transparent;
+}
+.About3ImgBackground9 {
+  margin: 0px 0px 20px 10px;
+  border: 5px solid transparent;
+}
+.About3ImgBackground10 {
+  margin: 0px 10px 20px 40px;
+  border: 5px solid transparent;
+}
+@media (max-width: 960px) {
+  .AboutContainer {
+    max-width: 500px;
+  }
+  .About3Right {
+    margin: 0 0 40px 0px;
+  }
+  .AboutList1 {
+    display: inline;
+  }
+  .AboutList2 {
+    display: inline;
+  }
+  .About3List {
+    display: inline;
+  }
+}
+@media (max-width: 500px) {
+  .AboutList1 {
+    p {
+      max-width: 500px;
+      margin: 20px;
+    }
+    img {
+      margin: 20px;
+    }
+  }
+  .AboutH2 {
+    margin: 110px 20px 20px 20px;
+  }
+  .AboutNorthH2 {
+    margin: 20px;
+  }
+  .AboutP2Left {
+    margin: 0px 20px;
+  }
+  iframe {
+    width: 370px;
+    margin: 0 20px;
+  }
+  //第二區右邊小圖片
+  .About2Right {
+    text-align: center;
+    margin: 0px auto;
+    max-width: 400px;
+    img {
+      max-width: 200px;
+    }
+  }
+
+  .AboutNorthH3 {
+    margin: 20px;
+  }
+  .AboutP3Left {
+    margin: 0px 20px;
+  }
+  .About2ImgBackground1 {
+    margin: 10px;
+  }
+  .About2ImgBackground2 {
+    margin: 10px;
+  }
+  .About2ImgBackground3 {
+    margin: 10px;
+  }
+  .About2ImgBackground4 {
+    margin: 10px;
+  }
+  .About2ImgBackground5 {
+    margin: 10px;
+  }
+  //第三區右邊小圖片
+  .About3Right {
+    text-align: center;
+    margin: 0px auto;
+  }
+  .About3ImgBackground6 {
+    margin: 10px;
+  }
+  .About3ImgBackground7 {
+    margin: 10px;
+  }
+  .About3ImgBackground8 {
+    margin: 10px;
+  }
+  .About3ImgBackground9 {
+    margin: 10px;
+  }
+  .About3ImgBackground10 {
+    margin: 10px;
+  }
+  .AboutImgPicture1 {
+    max-width: 440px;
+  }
+}
+@media (max-width: 400px) {
+  .AboutContainer {
+    max-width: 350px;
+  }
+
+  .AboutList1 {
+    p {
+      max-width: 350px;
+    }
+  }
+  //第二區左邊圖片
+  .About2Left {
+    img {
+      max-width: 350px;
+      height: 350px;
+    }
+  }
+  //
+  .AboutImgPicture3 {
+    max-width: 300px;
+    height: 250px;
+  }
+  .AboutImgPicture2 {
+    max-width: 300px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 320px) {
+  .AboutContainer {
+    max-width: 320px;
+  }
+  .AboutList1 {
+    p {
+      max-width: 320px;
+    }
+  }
+}

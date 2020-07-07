@@ -1,0 +1,217 @@
+// Import Bootstrap and its default variables
+// @import '~bootstrap/scss/bootstrap';
+
+// google-font
+// @import url('https://fonts.googleapis.com/css2?family=Merienda&family=Noto+Serif+TC:wght@300&display=swap');
+
+// * {
+//   margin: 0;
+//   padding: 0;
+// }
+
+// :root {
+//   --main-colorfff: #fff;
+//   --main-colorblack: #141414;
+//   --main-color79: #797979;
+//   --main-colorda: #dadada;
+//   --main-colorf2: #f2f2f2;
+//   --main-colorf2e: #f2ebdf;
+//   --main-colorfb2: #fb2643;
+//   --main-title-english: 'Merienda';
+//   --main-title-chinese: 'Noto Serif TC';
+//   --nav-height: 5rem; /** 80px **/
+//   --margin: 11.25rem; /** 180px **/
+//   --h1: 2.25rem; /** 36px **/
+//   --h2: 1.5rem; /** 24px **/
+//   --h3: 1.42rem; /** 20px **/
+//   --h4: 1.14rem; /** 16px **/
+//   --p: 1rem;
+//   --h5: 0.92rem; /** 13px **/
+//   --h6: 0.85rem; /** 12px **/
+// }
+
+.cart-table {
+  // background: orange;
+  .cart2-thead {
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 0rem;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    li {
+      color: white;
+      width: 20%;
+    }
+  }
+  .cart2-product {
+    line-height: 30px;
+    display: flex;
+    text-align: center;
+    border: 1px solid #797979;
+    margin-bottom: 0rem;
+    li {
+      width: 20%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      // white-space: nowrap;
+      word-wrap: break-word;
+      overflow: hidden;
+      text-align: left;
+      img {
+        width: 70%;
+      }
+    }
+    .cart2-product-li {
+    }
+  }
+}
+
+.cart-buyer-info {
+  // background: greenyellow;
+  .cart2-input {
+    // background: #fb2643;
+    width: 90%;
+    margin: 0 auto;
+    label {
+      text-align: right;
+      width: 20%;
+      margin: 10px 0;
+    }
+    div {
+      line-height: 26px;
+      padding: 0 0 0 180px;
+    }
+  }
+}
+
+.cart-invoice {
+  // background: hotpink;
+  .cart2-invoice-option {
+    // background: #fb2643;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    li {
+      line-height: 30px;
+      width: 100%;
+      // margin: 0 0 0 180px;
+    }
+    .cart2-invoice-category {
+      width: 20%;
+      text-align: right;
+    }
+    .cart2-invoice-value {
+      width: 65%;
+      margin: 0 20px;
+      text-align: left;
+    }
+    .cart2-colspan2 {
+      margin: 0 0 0 95px;
+    }
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .cart-buyer-info {
+    .cart2-input div {
+      line-height: 26px;
+      padding: 0;
+      width: 50%;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cart-table {
+    // background: orange;
+    .cart2-thead {
+      width: 80%;
+      margin: 0 auto;
+      flex-wrap: wrap;
+      li {
+        font-size: 14px;
+        width: 25%;
+      }
+      .cart-rwd-noneed {
+        display: none;
+      }
+    }
+    .cart2-product {
+      width: 80%;
+      margin: 0 auto;
+      flex-wrap: wrap;
+      padding: 0 0 15px 0;
+      li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        width: 25%;
+        padding: 0;
+        img {
+          width: 90%;
+        }
+      }
+      .cart2-product-li {
+      }
+      .cart-rwd-noneed {
+        display: none;
+      }
+    }
+  }
+
+  .cart-buyer-info {
+    // background: greenyellow;
+    .cart2-input {
+      // background: #fb2643;
+      width: 100%;
+      label {
+        width: 22%;
+        white-space: nowrap;
+      }
+      div {
+        // width: 100%;
+        // margin: 0;
+        padding: 0;
+        // text-indent: 160px;
+        // width: 40%;
+        // margin: 0 auto;
+        width: 65%;
+        margin: 0 80px;
+      }
+    }
+  }
+
+  .cart-invoice {
+    // background: hotpink;
+    .cart2-invoice-option {
+      // background: #fb2643;
+      display: block;
+      text-indent: 0;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      li {
+      }
+      .cart2-invoice-category {
+        width: 40%;
+        text-align: left;
+      }
+      .cart2-invoice-value {
+        width: 100%;
+        text-indent: 0;
+      }
+      .cart2-colspan2 {
+        margin: 0;
+      }
+      .cart2-rwd-value {
+        text-indent: 60px;
+      }
+    }
+  }
+}

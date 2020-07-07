@@ -1,0 +1,21 @@
+.news-Sliders {
+  max-width: 1440px;
+  max-height: 600px;
+  margin: 90px auto 50px;
+}
+
+.news-SlidersImg {
+  width: 100%;
+  height: 600px;
+}
+
+@media (max-width: 768px) {
+  .news-Sliders {
+    // width: 100%;
+    // height: 100%;
+    margin: 90px auto 10px;
+  }
+  .news-SlidersImg{
+    height: 210px;
+  }
+}

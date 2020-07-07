@@ -1,0 +1,79 @@
+
+// crat
+@import './cart/cart-title.scss';
+@import './cart/cart.scss';
+@import './cart/cart-2.scss';
+@import './cart/cart-3.scss';
+@import './cart/cart-4.scss';
+
+//home
+@import '~bootstrap/scss/bootstrap.scss';
+@import './home/home-navbar-index.scss';
+@import './home/navbar.scss';
+@import './home/home-slider-index.scss';
+@import './home/home-slider-news.scss';
+@import './home/home-slogan.scss';
+@import './home/home-courses-videos.scss';
+@import './home/home-instruments.scss';
+@import './home/home-news.scss';
+@import './home/footer.scss';
+
+//games
+@import './games/games.scss';
+
+//news
+@import './news/news-Sliders.scss';
+@import './news/news-Content.scss';
+@import './news/news-Category.scss';
+@import './news/news-Hot.scss';
+@import './news/news-pages-Banner.scss';
+@import './news/news-pages-Content.scss';
+
+//product
+@import './product/instrument/productCategory.scss';
+@import './product/instrument/productList.scss';
+@import './product/id/product-id.scss';
+@import './product//product-sidebar.scss';
+
+// login
+@import './login/all-login-page.scss';
+@import './login/user-facturer-login-page.scss';
+
+// register
+@import './register/user-register.scss';
+@import './register/manufacturer-register.scss';
+
+//User
+@import './user/user-app.scss';
+@import './user/user-data.scss';
+@import './user/user-like.scss';
+@import './user/user-purchase.scss';
+@import './user/user-pwd.scss';
+@import './user/user-sidebar.scss';
+@import './user/user-video.scss';
+@import './user/user-voucher.scss';
+
+// Manufacturer
+
+@import './Manufacturer/Manufacturer-Video/Manufacturer-Video-App.scss';
+@import './Manufacturer/Manufacturer-Video/Manufacturer-Video-Home.scss';
+@import './Manufacturer/Manufacturer-Video/Manufacturer-Video-Menu.scss';
+@import './Manufacturer/Manufacturer-Video/Manufacturer-Video-List.scss';
+@import './Manufacturer/Manufacturer-Video/Manufacturer-Video-Password.scss';
+@import './Manufacturer/Manufacturer-Video/Manufacturer-Video-Order.scss';
+@import './Manufacturer/Manufacturer-Video/Manufacturer-Video-PutOn.scss';
+@import './Manufacturer/Manufacturer-Video/Manufacturer-Video-Edit.scss';
+@import './Manufacturer/Manufacturer-Instrument/Manufacturer-Instrument-App.scss';
+@import './Manufacturer/Manufacturer-Instrument/Manufacturer-Instrument-Home.scss';
+@import './Manufacturer/Manufacturer-Instrument/Manufacturer-Instrument-Menu.scss';
+@import './Manufacturer/Manufacturer-Instrument/Manufacturer-Instrument-List.scss';
+@import './Manufacturer/Manufacturer-Instrument/Manufacturer-Instrument-Password.scss';
+@import './Manufacturer/Manufacturer-Instrument/Manufacturer-Instrument-Order.scss';
+@import './Manufacturer/Manufacturer-Instrument/Manufacturer-Instrument-PutOn.scss';
+@import './Manufacturer/Manufacturer-Instrument/Manufacturer-Instrument-Edit.scss';
+
+//About
+@import './ForumScss/ForumCard.scss';
+@import './AnyQuestion/AnyQuestionList.scss';
+@import './AboutScss/AboutList.scss';
+@import './AnyQuestion/AnyQuestionAction.scss';

@@ -1,0 +1,96 @@
+.home-slogan-container {
+  //   position: relative;
+  //   z-index: -999;
+  //   top:100vh;
+  padding-top: 10.71rem;
+
+  .home-slogan-wrap {
+    // background-color: #fb2643;
+    width: 38.57rem;
+    height: 38.71rem;
+    font-family: var(--main-title-chinese);
+    text-align: center;
+    letter-spacing: 0.3rem;
+    margin: 0 auto 10.71rem;
+
+    .home-slogan-h2 {
+      font-family: var(--main-title-english);
+    }
+
+    .home-slogan-h2,
+    .home-slogan-h2-sub {
+      font-size: 24px;
+      padding: 1.07rem 0;
+      // margin: 0;
+      // border: 1px solid red;
+    }
+
+    .home-slogan-txt {
+      font-size: var(--h3);
+
+      p {
+        margin: 2.14rem 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) and(min-width:415px) {
+  .home-slogan-container {
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    // margin-bottom: 3rem;
+
+    .home-slogan-wrap {
+      width: 100%;
+
+      .home-slogan-h2,
+      .home-slogan-h2-sub {
+        font-size: 4.7vw;
+        padding: 1.07rem 0;
+      }
+
+      .home-slogan-txt {
+        font-size: 2.6vw;
+        padding: 0;
+
+        p {
+          margin: 2.14rem 0;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .home-slogan-container {
+    max-width: 100%;
+    padding: 4.14rem 0 0 0;
+
+    .home-slogan-wrap {
+      width: 100%;
+      letter-spacing: 0;
+      margin: 0;        
+      height: 32.71rem;
+      display: block;  
+
+      .home-slogan-h2,
+      .home-slogan-h2-sub {
+        // border:1px solid red;
+        font-size: 4.7vw;
+        padding: 0;
+        margin: 2.5rem 0;
+      }
+
+      .home-slogan-txt {
+        font-size: 3.117vw;
+        padding: 0;
+
+        p {
+          margin: 1.5rem 0;
+        }
+      }
+    }
+  }
+}

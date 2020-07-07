@@ -1,0 +1,39 @@
+.news-CategoryContainer {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 0 50px 0;
+}
+
+.news-Category {
+  max-width: 640px;
+}
+
+.news-Link {
+  width: 160px;
+  text-align: center;
+  color: #141414;
+  display: block;
+}
+.news-Link:hover {
+  background: #141414;
+  color: #ffffff;
+}
+.news-Link:active {
+  background: #141414;
+  color: #ffffff;
+}
+
+.news-Link:focus-visible {
+  background: #141414;
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .news-CategoryContainer {
+    padding: 10px;
+  }
+  .news-Category {
+    width: 320px;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,214 @@
+.userVoucher-main {
+  width: 812px;
+  margin: 0 auto 0px 10%;
+}
+
+.userVoucher-search {
+  width: 100%;
+  position: relative;
+}
+.userVoucher-search-input {
+  width: calc(100% - 80px);
+  height: 40px;
+  padding-left: 17px;
+}
+.userVoucher-search-input:focus {
+  border: solid 2px#141414;
+}
+.userVoucher-search-button {
+  width: 80px;
+  height: 40px;
+  text-align: center;
+  background-color: var(--main-colorblock);
+  color: var(--main-colorfff);
+  transform: translateY(-1px);
+  border: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.userVoucher-search-button:hover {
+  background-color: var(--main-colorf2e);
+  color: var(--main-colorblock);
+}
+.userVoucher-search-404title {
+  margin: 20px 0 20px 15px;
+  color: var(--main-colorfb2);
+}
+
+.userVoucher-top-titleName {
+  margin: 198px auto 80px auto;
+  text-align: center;
+}
+
+.userVoucher-item {
+  display: flex;
+  margin-top: 30px;
+  width: 100%;
+  justify-content: space-between; /* 横向中间自动空间 */
+  align-content: space-between; /* 竖向中间自动空间 */
+  height: 411px;
+  flex-wrap: wrap;
+}
+.userVoucher-item-card {
+  width: 330px;
+  height: 107px;
+  background-color: #f2f2f2;
+  margin: 0 auto 40px auto;
+  position: relative;
+  box-shadow: 4px 3px 5px #aba2a2;
+  -webkit-box-shadow: 4px 3px 5px #aba2a2;
+  -moz-box-shadow: 4px 3px 5px #aba2a2;
+}
+.userVoucher-item-card:after {
+  content: '';
+  display: block;
+  width: 30px;
+  height: 100%;
+  background-size: 30px 21px;
+  background-repeat: repeat-y;
+  background-image: radial-gradient(#fff 8px, transparent 8px);
+  position: absolute;
+  top: 0;
+  left: -15px;
+}
+.userVoucher-item-card-img {
+  width: 70px;
+  height: 75px;
+  margin: 16px 0 0 22px;
+  position: absolute;
+}
+.userVoucher-item-card-img > img {
+  width: 100%;
+  height: 100%;
+}
+.userVoucher-divider {
+  border: 1.5px #f2f2f2 solid;
+}
+.userVoucher-item-card-divider {
+  height: 100%;
+  background-color: var(--main-colorblock);
+  width: 1px;
+  position: absolute;
+  left: 100px;
+}
+.userVoucher-item-card-title {
+  font-size: 20px;
+  position: absolute;
+  left: 119px;
+  top: 5px;
+  color: #141414;
+}
+.userVoucher-item-card-date {
+  font-size: 12px;
+  position: absolute;
+  bottom: 10px;
+  left: 111px;
+  color: #141414;
+}
+.userVoucher-item-card-copy {
+  position: absolute;
+  text-decoration: underline;
+  bottom: 10px;
+  left: 244px;
+  font-size: 16px;
+  border: none;
+}
+.userVoucher-item-card-num{
+  margin: 13%;
+  margin-left: 39%;
+  text-align: center;
+  font-family: var(--main-title-english);
+}
+.userVoucher-item-card-gg-div{
+background-color: #797979;
+}
+.user-voucher-error{
+  background-color:var(--main-colorfb2);
+  color: black;
+  border: none;
+  border-radius: 0%;
+  width: 100%;
+  text-align: center;
+}
+.userVoucher-item-card-gg-p{
+  position: absolute;
+  font-size: 50px;
+  left: 30%;
+  top: 13%;
+color: rgb(20, 20, 20);
+}
+.userVoucher-item-card-gg{
+    opacity: 0.6;
+}
+@media (max-width: 768px){
+  .userVoucher-main {
+    width: 80%;
+    height: calc(100vh - 322px);
+
+    margin: 154px auto auto auto;
+    /* background-color: thistle; */
+  }
+  .userVoucher-top-titleName {
+    margin: 0 auto 25px auto;
+    text-align: center;
+  }
+  .userVoucher-search {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .userVoucher-search-input {
+    /* width: calc(100% - 80px); */
+    height: 40px;
+    padding-left: 17px;
+    width: 100%;
+  }
+  .userVoucher-item {
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+    justify-content: space-between; /* 横向中间自动空间 */
+    align-content: space-between; /* 竖向中间自动空间 */
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .userVoucher-search-button {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    background-color: var(--main-colorblock);
+    color: var(--main-colorfff);
+    border: none;
+    position: relative;
+  }
+  .userVoucher-search-404title {
+    margin: 5px 0 5px 15px;
+    color: var(--main-colorfb2);
+  }
+  .userVoucher-item-card-title {
+    font-size: 14px;
+    left: 45%;
+}
+
+.userVoucher-item-card-num {
+  margin-top: 8%;
+  margin-left: 27%;
+  text-align: center;
+  font-family: var(--main-title-english);
+}
+
+
+
+.userVoucher-item-card-copy {
+  position: absolute;
+  text-decoration: underline;
+  /* bottom: 10px; */
+  left: 53%;
+  bottom: 29%;
+  font-size: 16px;
+}
+.userVoucher-item-card-date {
+  left: 46%;
+}
+}

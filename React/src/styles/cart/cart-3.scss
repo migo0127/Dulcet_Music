@@ -1,0 +1,950 @@
+.cart3-title {
+  padding: 20px 0 15px 0;
+  font-size: 16px;
+}
+
+.cart3-pay-form {
+  padding: 60px;
+  border: 1px solid #797979;
+  font-family: 'Merienda';
+  input {
+    // text-indent: 80px;
+    text-align: center;
+  }
+  label {
+    // padding: 0 24px;
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Noto Serif TC';
+    margin-bottom: 1rem;
+    input[type='radio'] {
+      width: 20px;
+      height: 20px;
+      vertical-align: sub;
+    }
+  }
+  .cart3-reminder {
+    padding: 10px;
+    margin: 10px 25px 15px 25px;
+    span {
+      font-family: 'Noto Serif TC';
+    }
+  }
+  .cart3-reminder-green {
+    background: rgb(197, 231, 224);
+    color: rgb(65, 129, 65);
+  }
+  .cart3-reminder-red {
+    background: rgb(245, 163, 163);
+    color: rgb(168, 6, 6);
+  }
+  .cart3-atm-info {
+    border: 1px solid rgb(245, 163, 163);
+    font-family: 'Noto Serif TC';
+    padding: 10px;
+    margin: 10px 25px 25px 25px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    ul {
+      padding: 0 10px;
+    }
+    .cart3-atm-info1 {
+      width: 30%;
+    }
+  }
+  .cart3-logo-img {
+    // background: yellowgreen;
+    // width: 150px;
+    height: 50px;
+    margin: 0 0 0 20px;
+    display: inline-block;
+    img {
+      height: 100%;
+    }
+    .cart-img-border {
+      // border: 1px solid #797979;
+      box-shadow: 3px 3px 5px #797979;
+    }
+  }
+  .cart3-creditcard-wrap {
+    margin: 0 auto;
+    display: inherit;
+    perspective: 0px;
+  }
+  .cart3-creditcard {
+    background: #fffdfd;
+    // background: #f2ebdf;
+    border: 1px solid #9a9a9a;
+    border-radius: 26px;
+    width: 300px;
+    height: 200px;
+    margin: 30px 10px;
+    display: inline-block;
+    text-align: center;
+    .cart3-creditcard-same {
+      display: flex;
+      vertical-align: middle;
+    }
+    .cart3-creditcard-1 {
+      justify-content: space-between;
+      margin: 30px;
+      .cart3-card-in-card {
+        background: #797979;
+        border-radius: 10px;
+        width: 60px;
+        height: 40px;
+      }
+      .cart3-card-category {
+        height: 40px;
+        line-height: 40px;
+        vertical-align: middle;
+        text-align: right;
+        width: 25%;
+      }
+    }
+    .cart3-creditcard-2 {
+      margin: 25px;
+      width: 85%;
+      input {
+        width: 25%;
+      }
+    }
+    .cart3-creditcard-3 {
+      margin: 25px;
+      width: 85%;
+      input {
+        width: 50%;
+      }
+    }
+    .cart3-creditcard-number {
+      margin: 0 5px;
+      text-indent: 0;
+      text-align: center;
+      outline: none;
+      background-color: transparent;
+      border: none;
+      border-bottom: 1px solid #797979;
+      font-size: 12px;
+    }
+    .cart3-creditcard-stripe {
+      background: #c29a8b;
+      width: 100%;
+      height: 12%;
+      margin: 45px 0 0 0;
+    }
+    .cart3-creditcard-safe-info {
+      margin: 20px 25px;
+      font-size: 12px;
+      text-align: right;
+      height: 45%;
+      div {
+        margin: 10px 0;
+      }
+      .cart3-creditcard-safe-code {
+        background: #f2e8df;
+        color: #c29a8b;
+        border-radius: 7px;
+        height: 25%;
+        line-height: 24px;
+        vertical-align: middle;
+      }
+      .cart3-card-category {
+        height: 25%;
+        font-size: 16px;
+      }
+    }
+  }
+  .cart3-creditcard-front {
+    position: absolute;
+    transition: transform 3s;
+    transform: rotateY(0deg);
+    // transform: rotateY(0deg);
+    // visibility: hidden;
+  }
+  .cart3-creditcard-back {
+    transform: rotateY(-90deg);
+    // transform: rotateY(270deg);
+    transition: transform 3s;
+    // visibility: hidden;
+  }
+  .cart3-rotate-front {
+    transform: rotateY(-90deg);
+    // transform: rotateY(270deg);
+  }
+  .cart3-rotate-back {
+    transform: rotateY(0deg);
+    // transform: rotateY(0deg);
+  }
+  .cart3-input {
+    // background: #fb2643;
+    // border: 1px solid white;
+    margin: 30px 0 0 0;
+    // margin: 0 0 20px 0;
+    label {
+      padding: 0 35px;
+      // text-align: right;
+    }
+    input {
+      outline: none;
+      background-color: transparent;
+      border: none;
+      border-bottom: 2px solid var(--main-color79);
+      width: 93%;
+      margin: 0 30px;
+    }
+    .cart3-safe-code {
+      input {
+        width: 60%;
+      }
+    }
+  }
+
+  .cart-card-ex {
+    justify-content: space-between;
+
+    input {
+      width: 30%;
+    }
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .cart3-title {
+  }
+
+  .cart3-pay-form {
+    input {
+    }
+    label {
+      input[type='checkbox'] {
+      }
+    }
+    .cart3-reminder {
+      span {
+      }
+    }
+    .cart3-reminder-green {
+    }
+    .cart3-reminder-red {
+    }
+    .cart3-atm-info {
+      width: 90%;
+      ul {
+      }
+      .cart3-atm-info1 {
+      }
+    }
+    .cart3-logo-img {
+      img {
+      }
+      .cart-img-border {
+      }
+    }
+    .cart3-creditcard-wrap {
+      width: 100%;
+      justify-content: center;
+    }
+    .cart3-creditcard {
+      height: 180px;
+      border-radius: 20px;
+      .cart3-creditcard-same {
+      }
+      .cart3-creditcard-1 {
+        margin: 25px;
+        .cart3-card-in-card {
+        }
+        .cart3-card-category {
+        }
+      }
+      .cart3-creditcard-2 {
+        margin: 20px;
+        input {
+        }
+      }
+      .cart3-creditcard-3 {
+        margin: 20px;
+        input {
+        }
+      }
+      .cart3-creditcard-number {
+      }
+      .cart3-creditcard-stripe {
+      }
+      .cart3-creditcard-safe-info {
+        div {
+        }
+        .cart3-creditcard-safe-code {
+        }
+        .cart3-card-category {
+        }
+      }
+    }
+    .cart3-input {
+      label {
+      }
+      input {
+        margin: 0 10px;
+      }
+      .cart3-safe-code {
+        input {
+        }
+      }
+    }
+
+    .cart-card-ex {
+      input {
+      }
+    }
+  }
+}
+
+@media (min-width: 580px) and (max-width: 768px) {
+  .cart3-title {
+    font-size: 16px;
+    padding: 20px 0 10px 0;
+    text-align: center;
+  }
+  .cart3-form-wrap {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 12px;
+  }
+  .cart3-pay-form {
+    padding: 20px;
+    input {
+    }
+    label {
+      margin-bottom: 1rem;
+      display: block;
+      input[type='checkbox'] {
+      }
+    }
+    .cart3-reminder {
+      padding: 0;
+      margin: 10px 0;
+      span {
+      }
+    }
+    .cart3-reminder-green {
+    }
+    .cart3-reminder-red {
+    }
+    .cart3-atm-info {
+      padding: 10px;
+      margin: 15px 0;
+      width: 100%;
+      height: 100%;
+      ul {
+        margin: 0;
+      }
+      .cart3-atm-info1 {
+        margin: 0;
+        width: 40%;
+      }
+    }
+    .cart3-logo-img {
+      margin: 0 0 0 10px;
+      img {
+      }
+      .cart-img-border {
+      }
+    }
+    .cart3-creditcard-wrap {
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: center;
+    }
+    .cart3-creditcard {
+      margin: 15px 5px;
+      width: 45%;
+      height: 90%;
+      border-radius: 15px;
+      .cart3-creditcard-same {
+        margin: 15px;
+      }
+      .cart3-creditcard-1 {
+        .cart3-card-in-card {
+        }
+        .cart3-card-category {
+        }
+      }
+      .cart3-creditcard-2 {
+        input {
+        }
+      }
+      .cart3-creditcard-3 {
+        input {
+        }
+      }
+      .cart3-creditcard-number {
+      }
+      .cart3-creditcard-stripe {
+        margin: 30px 0 0 0;
+      }
+      .cart3-creditcard-safe-info {
+        margin: 15px 20px;
+        div {
+          margin: 5px 0;
+        }
+        .cart3-creditcard-safe-code {
+          line-height: 18px;
+        }
+        .cart3-card-category {
+          font-size: 12px;
+        }
+      }
+    }
+    .cart3-creditcard-form {
+      margin: 10px 0 0 0;
+    }
+    .cart3-input {
+      margin: 0;
+      width: 96%;
+      label {
+        padding: 10px;
+      }
+      input {
+        margin: 0 5px;
+      }
+      div {
+        input {
+          margin: 0 5px;
+        }
+      }
+      .cart3-safe-code {
+        input {
+        }
+      }
+    }
+
+    .cart-card-ex {
+      input {
+        width: 45%;
+      }
+    }
+  }
+}
+
+@media (min-width: 531px) and (max-width: 579px) {
+  .cart3-title {
+    font-size: 16px;
+    padding: 20px 0 10px 0;
+    text-align: center;
+  }
+  .cart3-form-wrap {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 12px;
+  }
+  .cart3-pay-form {
+    padding: 20px;
+    input {
+    }
+    label {
+      margin-bottom: 1rem;
+      display: block;
+      input[type='checkbox'] {
+      }
+    }
+    .cart3-reminder {
+      padding: 0;
+      margin: 10px 0;
+      span {
+      }
+    }
+    .cart3-reminder-green {
+    }
+    .cart3-reminder-red {
+    }
+    .cart3-atm-info {
+      padding: 10px;
+      margin: 15px 0;
+      width: 100%;
+      height: 100%;
+      ul {
+        margin: 0;
+      }
+      .cart3-atm-info1 {
+        margin: 0;
+        width: 40%;
+      }
+    }
+    .cart3-logo-img {
+      margin: 0 0 0 10px;
+      img {
+      }
+      .cart-img-border {
+      }
+    }
+    .cart3-creditcard-wrap {
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: center;
+    }
+    .cart3-creditcard {
+      margin: 15px 0 0 0;
+      width: 65%;
+      height: 50%;
+      border-radius: 15px;
+      .cart3-creditcard-same {
+        margin: 15px;
+      }
+      .cart3-creditcard-1 {
+        .cart3-card-in-card {
+        }
+        .cart3-card-category {
+        }
+      }
+      .cart3-creditcard-2 {
+        input {
+        }
+      }
+      .cart3-creditcard-3 {
+        input {
+        }
+      }
+      .cart3-creditcard-number {
+      }
+      .cart3-creditcard-stripe {
+        margin: 30px 0 0 0;
+      }
+      .cart3-creditcard-safe-info {
+        margin: 15px 20px;
+        div {
+          margin: 5px 0;
+        }
+        .cart3-creditcard-safe-code {
+          line-height: 18px;
+        }
+        .cart3-card-category {
+          font-size: 12px;
+        }
+      }
+    }
+    .cart3-creditcard-form {
+      // width: 80%;
+      margin: 50px 0 0 0;
+    }
+    .cart3-input {
+      // background: #fb2643;
+      margin: 0;
+      width: 96%;
+      label {
+        padding: 10px;
+      }
+      input {
+        margin: 0 5px;
+      }
+      div {
+        input {
+          margin: 0 5px;
+        }
+      }
+      .cart3-safe-code {
+        input {
+        }
+      }
+    }
+
+    .cart-card-ex {
+      input {
+        width: 45%;
+      }
+    }
+  }
+}
+
+@media (min-width: 471px) and (max-width: 530px) {
+  .cart3-title {
+    font-size: 16px;
+    padding: 20px 0 10px 0;
+    text-align: center;
+  }
+  .cart3-form-wrap {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 12px;
+  }
+  .cart3-pay-form {
+    padding: 20px;
+    input {
+    }
+    label {
+      margin-bottom: 1rem;
+      display: block;
+      input[type='checkbox'] {
+      }
+    }
+    .cart3-reminder {
+      padding: 0;
+      margin: 10px 0;
+      span {
+      }
+    }
+    .cart3-reminder-green {
+    }
+    .cart3-reminder-red {
+    }
+    .cart3-atm-info {
+      padding: 10px;
+      margin: 15px 0;
+      width: 100%;
+      height: 100%;
+      ul {
+        margin: 0;
+      }
+      .cart3-atm-info1 {
+        margin: 0;
+        width: 40%;
+      }
+    }
+    .cart3-logo-img {
+      margin: 0 0 0 10px;
+      img {
+      }
+      .cart-img-border {
+      }
+    }
+    .cart3-creditcard-wrap {
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: center;
+    }
+    .cart3-creditcard {
+      margin: 15px 0 0 0;
+      width: 65%;
+      height: 50%;
+      border-radius: 15px;
+      .cart3-creditcard-same {
+        margin: 15px;
+      }
+      .cart3-creditcard-1 {
+        .cart3-card-in-card {
+        }
+        .cart3-card-category {
+        }
+      }
+      .cart3-creditcard-2 {
+        input {
+        }
+      }
+      .cart3-creditcard-3 {
+        input {
+        }
+      }
+      .cart3-creditcard-number {
+      }
+      .cart3-creditcard-stripe {
+        margin: 30px 0 0 0;
+      }
+      .cart3-creditcard-safe-info {
+        margin: 15px 20px;
+        div {
+          margin: 5px 0;
+        }
+        .cart3-creditcard-safe-code {
+          line-height: 18px;
+        }
+        .cart3-card-category {
+          font-size: 12px;
+        }
+      }
+    }
+    .cart3-creditcard-form {
+      // width: 80%;
+      margin: 50px 0 0 0;
+    }
+    .cart3-input {
+      // background: #fb2643;
+      margin: 0;
+      width: 96%;
+      label {
+        padding: 10px;
+      }
+      input {
+        margin: 0 5px;
+      }
+      div {
+        input {
+          margin: 0 5px;
+        }
+      }
+      .cart3-safe-code {
+        input {
+        }
+      }
+    }
+
+    .cart-card-ex {
+      input {
+        width: 45%;
+      }
+    }
+  }
+}
+
+@media (min-width: 420px) and (max-width: 470px) {
+  .cart3-title {
+    font-size: 16px;
+    padding: 20px 0 10px 0;
+    text-align: center;
+  }
+  .cart3-form-wrap {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 12px;
+  }
+  .cart3-pay-form {
+    padding: 20px;
+    input {
+    }
+    label {
+      margin-bottom: 1rem;
+      display: block;
+      input[type='checkbox'] {
+      }
+    }
+    .cart3-reminder {
+      padding: 0;
+      margin: 10px 0;
+      span {
+      }
+    }
+    .cart3-reminder-green {
+    }
+    .cart3-reminder-red {
+    }
+    .cart3-atm-info {
+      padding: 10px;
+      margin: 15px 0;
+      width: 100%;
+      height: 100%;
+      ul {
+        margin: 0;
+      }
+      .cart3-atm-info1 {
+        margin: 0;
+        width: 40%;
+      }
+    }
+    .cart3-logo-img {
+      margin: 0 0 0 10px;
+      img {
+      }
+      .cart-img-border {
+      }
+    }
+    .cart3-creditcard-wrap {
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: center;
+    }
+    .cart3-creditcard {
+      margin: 15px 0 0 0;
+      width: 75%;
+      height: 50%;
+      border-radius: 15px;
+      .cart3-creditcard-same {
+        margin: 15px;
+      }
+      .cart3-creditcard-1 {
+        .cart3-card-in-card {
+        }
+        .cart3-card-category {
+        }
+      }
+      .cart3-creditcard-2 {
+        input {
+        }
+      }
+      .cart3-creditcard-3 {
+        input {
+        }
+      }
+      .cart3-creditcard-number {
+      }
+      .cart3-creditcard-stripe {
+        margin: 30px 0 0 0;
+      }
+      .cart3-creditcard-safe-info {
+        margin: 15px 20px;
+        div {
+          margin: 5px 0;
+        }
+        .cart3-creditcard-safe-code {
+          line-height: 18px;
+        }
+        .cart3-card-category {
+          font-size: 12px;
+        }
+      }
+    }
+    .cart3-creditcard-form {
+      // width: 80%;
+      margin: 50px 0 0 0;
+    }
+    .cart3-input {
+      // background: #fb2643;
+      margin: 0;
+      width: 96%;
+      label {
+        padding: 10px;
+      }
+      input {
+        margin: 0 5px;
+      }
+      div {
+        input {
+          margin: 0 5px;
+        }
+      }
+      .cart3-safe-code {
+        input {
+        }
+      }
+    }
+
+    .cart-card-ex {
+      input {
+        width: 45%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 419px) {
+  .cart3-title {
+    font-size: 16px;
+    padding: 20px 0 10px 0;
+    text-align: center;
+  }
+  .cart3-form-wrap {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 12px;
+  }
+  .cart3-pay-form {
+    padding: 20px;
+    input {
+    }
+    label {
+      margin-bottom: 1rem;
+      display: block;
+      input[type='checkbox'] {
+      }
+    }
+    .cart3-reminder {
+      padding: 0;
+      margin: 10px 0;
+      span {
+      }
+    }
+    .cart3-reminder-green {
+    }
+    .cart3-reminder-red {
+    }
+    .cart3-atm-info {
+      padding: 10px;
+      margin: 15px 0;
+      width: 100%;
+      height: 100%;
+      ul {
+        margin: 0;
+      }
+      .cart3-atm-info1 {
+        margin: 0;
+        width: 40%;
+      }
+    }
+    .cart3-logo-img {
+      margin: 0 0 0 10px;
+      height: 40px;
+      img {
+      }
+      .cart-img-border {
+      }
+    }
+    .cart3-creditcard-wrap {
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: center;
+    }
+    .cart3-creditcard {
+      margin: 15px 0 0 0;
+      width: 55%;
+      height: 20%;
+      // width: 75%;
+      // height: 50%;
+      border-radius: 15px;
+      .cart3-creditcard-same {
+        margin: 15px;
+      }
+      .cart3-creditcard-1 {
+        .cart3-card-in-card {
+        }
+        .cart3-card-category {
+        }
+      }
+      .cart3-creditcard-2 {
+        input {
+        }
+      }
+      .cart3-creditcard-3 {
+        input {
+        }
+      }
+      .cart3-creditcard-number {
+      }
+      .cart3-creditcard-stripe {
+        margin: 30px 0 0 0;
+      }
+      .cart3-creditcard-safe-info {
+        margin: 15px 20px;
+        div {
+          margin: 5px 0;
+        }
+        .cart3-creditcard-safe-code {
+          line-height: 18px;
+        }
+        .cart3-card-category {
+          font-size: 12px;
+        }
+      }
+    }
+    .cart3-rotate-back {
+      width: 76%;
+      height: 117%;
+    }
+    .cart3-creditcard-form {
+      // width: 80%;
+      margin: 50px 0 0 0;
+    }
+    .cart3-input {
+      // background: #fb2643;
+      margin: 0;
+      width: 96%;
+      label {
+        padding: 10px;
+      }
+      input {
+        margin: 0 5px;
+      }
+      div {
+        input {
+          margin: 0 5px;
+        }
+      }
+      .cart3-safe-code {
+        input {
+        }
+      }
+    }
+
+    .cart-card-ex {
+      input {
+        width: 45%;
+      }
+    }
+  }
+}
